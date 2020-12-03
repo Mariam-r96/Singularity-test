@@ -1,0 +1,68 @@
+.bg{
+    background: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.finance-logo{
+    position: absolute;
+    top: 33px;
+    left: 53px;
+    width: 20%;
+}
+
+select{
+    outline: none;
+    width: 200px;
+    padding:5px ;
+}
+
+.form-container{
+    text-align: center;
+    padding-top: 110px;
+}
+
+input:not([type=submit]){
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.233);
+    outline: none;
+    width: 200px;
+}
+
+label{
+    text-align: right;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0066B2;
+    font-weight: 700;
+}
+
+label span{
+    color: #EC1C24;
+    margin-left: 2px;
+}
+
+.border-gradient {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to right, #f1f1f1, #1c71aa);
+  }
+
+  .submitBtn{
+    padding: 25px 90px;
+    background-color: white;
+    border-radius: 60px;
+    font-size: 24px;
+    color:#EC1C24;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.233);
+    border: none;
+    margin: 30px 0;
+    outline: none;
+  }

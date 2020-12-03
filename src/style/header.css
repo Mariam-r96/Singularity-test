@@ -1,0 +1,40 @@
+.bg{
+    
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-header{
+
+display: flex;
+justify-content: space-between;
+padding: 10px 350px;
+
+}
+
+ul{
+    padding-left: none;
+    margin: 0;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right:50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 350px;
+    background-color: #0066B2;
+  
+}
+
+.navbar a{
+    color: white;
+}
+

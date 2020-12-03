@@ -1,0 +1,64 @@
+.bg{
+    background: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-size: 34px;
+    color: #0066B2;
+}
+
+h1 span{
+    color: #EC1C24;
+}
+
+p{
+    font-size: 25px;
+    line-height: 1.96em;
+    text-align: center;
+    color: #0066B2;
+    font-weight: 500;
+}
+
+p span{
+    font-weight: 700;
+}
+
+.section-gap{
+    padding: 35px 120px 0 120px;
+    text-align: center;
+}
+
+.finance-logo{
+    position: absolute;
+    top: 33px;
+    left: 53px;
+    width: 20%;
+}
+
+.submit{
+    padding: 25px 90px;
+    background-color: white;
+    border-radius: 60px;
+    font-size: 24px;
+    color:#EC1C24;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.233);
+    border: none;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+.submit::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25 200px;
+    background-color: blue;
+}
